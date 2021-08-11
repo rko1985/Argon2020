@@ -91,6 +91,7 @@ GameObject:
   - component: {fileID: 2148358753530756047}
   - component: {fileID: 2137663220253486473}
   - component: {fileID: 2128871081000879685}
+  - component: {fileID: 1321806572}
   m_Layer: 0
   m_Name: Player Ship
   m_TagString: Untagged
@@ -162,6 +163,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1321806572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2151064662056002039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5df7ef6ebfbe86341b01ae58a81a7082, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2151331509956429579
 GameObject:
   m_ObjectHideFlags: 0
