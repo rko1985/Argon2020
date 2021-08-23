@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,9 +21,10 @@ public class PlayerControls : MonoBehaviour
     {
         ProcessTranslation();
         ProcessRotation();
+        ProcessFiring();
 
     }
-
+    
     void ProcessRotation()
     {
         float pitchDueToPosition = transform.localPosition.y + positionPitchFactor;
@@ -50,4 +52,17 @@ public class PlayerControls : MonoBehaviour
 
         transform.localPosition = new Vector3(clampedXPos, clampedYPos, transform.localPosition.z);
     }
+
+    void ProcessFiring()
+    {
+        if (Input.GetButton("Fire1"))
+        {
+            Debug.Log("Firing");
+        }
+        else
+        {
+            Debug.Log("I'm not shooting");
+        }
+    }
+
 }
