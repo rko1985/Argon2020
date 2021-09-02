@@ -8,6 +8,7 @@ public class CollisionHandler : MonoBehaviour
 {
 
     [SerializeField] float loadDelay = 1f;
+    [SerializeField] ParticleSystem crashVFX;
 
     void OnTriggerEnter(Collider other)
     {
@@ -16,7 +17,10 @@ public class CollisionHandler : MonoBehaviour
 
     void StartCrashSequence()
     {
+        crashVFX.Play();
+        GetComponent<MeshRenderer>().enabled = false;
         GetComponent<PlayerControls>().enabled = false;
+        GetComponent<BoxCollider>().enabled = false;        
         Invoke("ReloadLevel", loadDelay);
     }
 
