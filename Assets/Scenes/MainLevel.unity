@@ -156,8 +156,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 900311662679173902, guid: 873a32256b4b9014b853eacc56119628, type: 3}
+  hitVFX: {fileID: 900311662679173902, guid: 1a8b4f1d19cb166478237ac3832b24f7, type: 3}
   parent: {fileID: 1343208128}
   scorePerHit: 15
+  hitPoints: 4
 --- !u!136 &596561078
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -440,8 +442,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 900311662679173902, guid: 873a32256b4b9014b853eacc56119628, type: 3}
+  hitVFX: {fileID: 900311662679173902, guid: 1a8b4f1d19cb166478237ac3832b24f7, type: 3}
   parent: {fileID: 1343208128}
   scorePerHit: 15
+  hitPoints: 1
 --- !u!4 &1343208128 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1112538708450484996, guid: e35a08f5a7d9db04db96616633746511, type: 3}
