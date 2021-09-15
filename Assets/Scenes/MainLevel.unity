@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &27689710 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3329584396108779314, guid: c94916ab56a173741925cee64e7a5e43, type: 3}
+  m_PrefabInstance: {fileID: 192569648083175820}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &73923180
 GameObject:
   m_ObjectHideFlags: 0
@@ -613,10 +618,17 @@ PlayableDirector:
     value: {fileID: 939377034}
   m_ExposedReferences:
     m_References:
+    - db8435d91012a3a4482ba8ce7a2ecb82: {fileID: 27689710}
+    - 1fd1c59c1d9aff347b94a6c36abe2215: {fileID: 27689710}
     - 64684c3538dfa944e8fc5dc99b1112f1: {fileID: 1420179030}
     - f717694522931e24fbad78b1190421f3: {fileID: 1162529217}
     - 9c1e55436f4402642beb0eef00c05d35: {fileID: 1775161150}
     - 86825a80d0fe65c4aace350d8981f489: {fileID: 377207027}
+    - 1d3b43d45c60d3f499553f2f77202034: {fileID: 27689710}
+    - 2d9f861e179a2e84f99cd8950d678702: {fileID: 27689710}
+    - f4e044882bc1f3943b9dc7b341360dbc: {fileID: 27689710}
+    - f3a29b0edde34c84d81432969153ea55: {fileID: 27689710}
+    - 1b0c5916c93c59440bd9e5db892964b9: {fileID: 27689710}
     - 2e033f378c6bfd44dae34e4f57caf655: {fileID: 0}
     - f5f235230416f57469cf60de31903a28: {fileID: 474772487}
 --- !u!4 &1418150089
