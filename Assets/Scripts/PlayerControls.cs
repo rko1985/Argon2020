@@ -63,7 +63,7 @@ public class PlayerControls : MonoBehaviour
 
     void ProcessFiring()
     {
-        if (Input.GetButton("Fire1"))
+        if (Input.GetButton("Fire1") || Input.GetKey(KeyCode.Space))
         {
             SetLasersActive(true);
         }
